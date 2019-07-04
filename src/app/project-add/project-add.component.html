@@ -1,0 +1,18 @@
+<form class="formContainer">
+  <h1>Créer un projet</h1>
+    <mat-form-field class="formInput">
+      <input name="title" [(ngModel)]="tempProject.title"   matInput placeholder="Titre" required>
+    </mat-form-field>
+    <mat-form-field class="formInput">
+      <input name="language" [(ngModel)]="tempProject.language" matInput placeholder="Langage de Programmation" required>
+    </mat-form-field>
+  <mat-form-field class="formInput">
+    <input name="teacher" [(ngModel)]="tempProject.teacher" matInput placeholder="Responsable" required>
+  </mat-form-field>
+  <mat-form-field class="formInput">
+    <textarea name="description" [(ngModel)]="tempProject.description" matInput placeholder="Description du projet" cols="30" rows="10" required></textarea>
+  </mat-form-field>
+  <div class="formFooter">
+    <button mat-button (click)="add()">Créer</button>
+  </div>
+</form>

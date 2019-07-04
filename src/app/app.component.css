@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.headerTitle {
+  width: 60%;
+}
+
+.headerMenu {
+  width: 40%;
+  text-align: right;
+}

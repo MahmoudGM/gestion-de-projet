@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.formContainer {
+  border: 1px solid;
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.formHeader {
+  width: 50%;
+  height: 50px;
+  border: .5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+
+.formInput {
+  width: 80%;
+}
+
+.formFooter {
+  width: 80%;
+  text-align: center;
+}
+
+.formCreateBtn {
+  background: #27ae60;
+  color: white;
+  font-weight: bold;
+}
+.formCreateBtn:hover {
+  background: #2ecc71;
+}
+
+.formRadio {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.formCheckbox {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formTableContainer {
+  border: .6px solid;
+  display: flex;
+  flex-direction: column;
+}
+.formTableRow {
+  border: .6px solid;
+
+
+}

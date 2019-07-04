@@ -1,0 +1,12 @@
+<form class="formContainer">
+  <h1>Authentification</h1>
+  <mat-form-field class="formInput">
+    <input name="login" [(ngModel)]="logintemp.login"   matInput placeholder="Identifiant" required>
+  </mat-form-field>
+  <mat-form-field class="formInput">
+    <input name="passwordd" type="password" [(ngModel)]="logintemp.password" matInput placeholder="Mot de passe" required>
+  </mat-form-field>
+  <div class="formFooter">
+    <button mat-button (click)="add()">Se connecter</button>
+  </div>
+</form>
